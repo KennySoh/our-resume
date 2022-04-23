@@ -1,3 +1,23 @@
 .header{
-  margin: 100px;
+  display:flex;
+  justify-content: space-between;
+  background-color: #bceefb;
+}
+.header__leftContainer{
+  display: flex;
+  flex-direction: row;
+}
+.header__rightContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__mainLogo{
+  object-fit: contain;
+  height:100px;
+}
+
+.header__resume{
+  margin:20px 50px 20px 50px;
 }

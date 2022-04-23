@@ -1,5 +1,6 @@
 import './App.css';
 import { Header } from './common/components/Header/Header';
+import { Resume } from './pages/Resume/Resume';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header></Header>
       
       {/* Resume */}
+      <Resume></Resume>
       {/* BlogSpot */}
     </div>
   );

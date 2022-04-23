@@ -1,0 +1,11 @@
+.header__menuItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__menuItemLogo{
+  margin:20px 0px 20px 0px;
+}
+.header__menuItemTitle{
+  margin:20px 20px 20px 10px;
+}
